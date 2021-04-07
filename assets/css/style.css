@@ -492,7 +492,7 @@ nav a {
 
 @media (max-width: 900px) {
   .logo {
-    line-height: 3.5rem;
+    line-height: 4rem;
     margin-left: 1rem;
     font-size: .6rem;
     letter-spacing: .1rem;
