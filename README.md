@@ -220,13 +220,23 @@ The process of cloning is now completed. For further information on cloning,
 
 ### Content
 
-
+- All Content on this website were inspired, and adapted from [Awwwards](https://www.awwwards.com/).
 
 ### Media
 
-
+- All images used on this website are from [Unsplash](https://unsplash.com).
+- Video loop used on the landing page is from [Mixkit](https://mixkit.co/free-video-backgrounds/).
 ### Codes & Snippets
 
+- Animated Fullscreen Overlay Navigation with GSAP is from [Codepen](https://codepen.io/jeffbredenkamp/pen/VypMNE).
+- Custom Scrollbar is from [Greensock ScrollTrigger Demos](https://greensock.com/st-demos/).
+- Animated Mouse Cursor is from [Greensock Forums](https://greensock.com/forums/topic/21161-animated-mouse-cursor/).
+- Image reveal Animations is from [Greensock Forums](https://greensock.com/forums/topic/27511-reveal-image-alternating-entrances-leftrightleftright/).
+- Javascript code for detecting mobile browser is from [Stackoverflow](https://stackoverflow.com/questions/11381673/detecting-a-mobile-browser).
+- Gradient reveal effect for homepage header is from [Greensock Forums](https://greensock.com/forums/topic/27371-gradient-reveal-on-scroll/?tab=comments#comment-134126).
+- Source code used for ScrollTo effects is from [GSAP ScrollTo Plugin Documentation](https://greensock.com/scrolltoplugin/).
+- Contact form structure code is from [Codegrid Youtube Channel](https://www.youtube.com/watch?v=gKgrdJgEtMA).
+- EmailJS source code is from CI Walkthrough Project.
 
 ## Acknowledgements
 
