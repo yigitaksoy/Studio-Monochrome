@@ -220,7 +220,7 @@ The process of cloning is now completed. For further information on cloning,
 
 ### Content
 
-- All Content on this website were inspired, and adapted from [Awwwards](https://www.awwwards.com/).
+- All Content on this website were inspired, and adapted from websites on [Awwwards](https://www.awwwards.com/).
 
 ### Media
 
@@ -234,8 +234,8 @@ The process of cloning is now completed. For further information on cloning,
 - Image reveal Animations is from [Greensock Forums](https://greensock.com/forums/topic/27511-reveal-image-alternating-entrances-leftrightleftright/).
 - Javascript code for detecting mobile browser is from [Stackoverflow](https://stackoverflow.com/questions/11381673/detecting-a-mobile-browser).
 - Gradient reveal effect for homepage header is from [Greensock Forums](https://greensock.com/forums/topic/27371-gradient-reveal-on-scroll/?tab=comments#comment-134126).
-- Source code used for ScrollTo effects is from [GSAP ScrollTo Plugin Documentation](https://greensock.com/scrolltoplugin/).
-- Contact form structure code is from [Codegrid Youtube Channel](https://www.youtube.com/watch?v=gKgrdJgEtMA).
+- Source code used for ScrollTo effects are from [GSAP ScrollTo Plugin Documentation](https://greensock.com/scrolltoplugin/).
+- Contact form structure code is from [Codegrid](https://www.youtube.com/watch?v=gKgrdJgEtMA) Youtube Channel.
 - EmailJS source code is from CI Walkthrough Project.
 
 ## Acknowledgements
