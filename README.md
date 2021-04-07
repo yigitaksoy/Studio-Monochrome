@@ -146,7 +146,7 @@
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
    - **W3C CSS Validator** to check validity of CSS code.
 - [Balsamiq:](https://balsamiq.com/)
-    - **Balsamiq** was used for creating [wireframes](..) during the design process. 
+    - **Balsamiq** was used for creating [wireframes](https://github.com/yigitaksoy/Studio-Monochrome/tree/master/assets/wireframes) during the design process. 
 
 
 
@@ -155,8 +155,8 @@
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate the HTML & CSS code in the project to ensure there were no syntax errors.
 
--   [W3C Markup Validator Results](..)
--   [W3C CSS Validator Results](..)
+-   [W3C Markup Validator Results](https://github.com/yigitaksoy/Studio-Monochrome/blob/master/assets/w3c-validator-results/html-results.png)
+-   [W3C CSS Validator Results](https://github.com/yigitaksoy/Studio-Monochrome/blob/master/assets/w3c-validator-results/css-results.png)
 
 ### Testing User Stories from UX Design Section
 
