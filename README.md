@@ -12,7 +12,7 @@
 
 <br><br>
 
-[You can view the live project here](..)
+[You can view the live project here](https://yigitaksoy.github.io/Studio-Monochrome/)
 
 </div>
 
