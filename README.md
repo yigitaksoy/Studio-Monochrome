@@ -174,6 +174,21 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 ### Further Manual Testing
 
+- All pages were tested locally, and on GitHub using Chrome, Firefox, IE, and Safari. 
+- All pages tested for responsiveness in different device sizes using Google Chrome Developer Tools;
+  - Desktop 
+  - iPhone 5/6/7/8/X 
+  - iPad 1/2/3/Pro 
+  - Galaxy Android phones
+- All the pages were also tested manually using;
+  - iPhone 5s/6s/8/X/XS/11/
+  - Samsung Galaxy S8/Note 10+
+  - iPad Air 2 
+- All the internal links tested locally, and functional.
+- All the logos on the website are functional, and leads the user back to the home page. 
+- All external links work as expected, and open in a new tab. 
+- All images are properly sized, and contain 'alt' text for description.
+- All the buttons checked for functionality, and works as expected.
 
 ### Debugging
 
