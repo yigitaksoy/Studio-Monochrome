@@ -92,9 +92,9 @@
 
 ### Wireframes
 
-- [Desktop view](..)
-- [Tablet view](..)
-- [Mobile view](..)
+- [Desktop view](https://github.com/yigitaksoy/Studio-Monochrome/blob/master/assets/wireframes/desktop-view.png)
+- [Tablet view](https://github.com/yigitaksoy/Studio-Monochrome/blob/master/assets/wireframes/tablet-view.png)
+- [Mobile view](https://github.com/yigitaksoy/Studio-Monochrome/blob/master/assets/wireframes/mobile-view.png)
 
 
 ## Features
