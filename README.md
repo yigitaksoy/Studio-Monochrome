@@ -3,7 +3,7 @@
 </h2>
 
 <h3 align="center">
-<img src="">
+<img src="https://github.com/yigitaksoy/Studio-Monochrome/blob/master/assets/images/responsive.png" alt="Studio Monochrome Preview">
 </h3>
 
 
