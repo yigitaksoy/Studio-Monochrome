@@ -86,6 +86,7 @@ The website features a modern, spacious, interactive, and eye chatching design f
 
 ### Typography
 
+- The primary font that was used on this project is [Adobe Termina](https://fonts.adobe.com/fonts/termina). It was used throughout the website for Logo, Navigation links, on all the texts, and Contact form to give the website a modern, and minimalistic feel. 
 
 
 ### Imagery
