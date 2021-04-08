@@ -54,8 +54,7 @@ The website is fully interactive, and built with mobile-first design in mind, an
  
 ## UX
 
-
-
+The website features a modern, spacious, interactive, and eye chatching design following the latest trends for users to easily navigate, while having a unique experience during their visit.
 
 ### User stories
 
