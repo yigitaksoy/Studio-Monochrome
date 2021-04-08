@@ -1,7 +1,7 @@
 // Source code is from Code Institute Walkthrough Project
 
 function sendMail(contactForm) {
-    emailjs.send("monochrome","monochrome", {
+    emailjs.send("gmail","gmail", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
         "project_request": contactForm.projectsummary.value
@@ -23,6 +23,6 @@ function sendMail(contactForm) {
 // Let user know that they have succesfully completed the form
 
 function feedBack() {
-    alert("Thank you for your message!");
+    alert("Thank you for your message! We'll get back to you shortly.");
 }
 
