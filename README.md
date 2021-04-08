@@ -91,7 +91,7 @@ The website features a modern, spacious, interactive, and eye chatching design f
 
 ### Imagery
 
-The landing page features a short video loop as a background. It's used to give the visitors an idea of the website's purpose, and a glimpse of the studio's work. The image for the About section was used to show the studio workspace, and their equipment. Portfolio images were chosen to establish the professionalism of the studio, and to give a hip, and stylish feel to the website.
+- The landing page features a short video loop as a background. It's used to give the visitors an idea of the website's purpose, and a glimpse of the studio's work. The image for the About section was used to show the studio workspace, and their equipment. Portfolio images were chosen to establish the professionalism of the studio, and to give a hip, and stylish feel to the website.
 
 ### Wireframes
 
