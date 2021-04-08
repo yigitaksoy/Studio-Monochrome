@@ -20,6 +20,9 @@
 
 ## Overview 
 
+This is the main website for Studio Monochrome, a creative photography studio based in Amsterdam. The website aims to target individuals, brands, and magazines who are looking for photography services to work on their campaigns. The website's main focus is to promote, showcase, and inform potential clients about their work, and raise studio awareness. 
+
+The website is fully interactive, and built with mobile-first design in mind, and accessible on a wide range of mobile devices, and tablets. 
 
 
 ## Contents Table
