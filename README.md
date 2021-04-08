@@ -60,14 +60,19 @@ The website features a modern, spacious, interactive, and eye chatching design f
 
 #### First Time Visitor Goals
 
+- I want to understand the main purpose of the website.
+- I want to easily navigate through the website. 
+- I want to see the studio's portfolio. 
 
 #### Returning Visitor Goals
 
+- I want to find out more information about the studio, and their background. 
 
 
 #### Frequent User Goals
 
-
+- I want to see the studio's social media presence. 
+- I want to find out how to contact the studio for project requests. 
 
 
 ## Strategy 
