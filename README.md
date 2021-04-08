@@ -194,6 +194,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 ### Debugging
 
+- During the earlier development stages of this website, a smooth-scroll library was implemented to add smooth-scrolling effects throughout the website, and to add a horizontal scrolling section for the portfolio images. After further testing I found out that smooth-scrolling library was hijacking the native scrolling on mobile devices, therefore resulting a slower, and poor UX for the users. The issue was fixable, but in order to fix this issue there had to be changes made in the javascript, due to its complexity, and the library being out of the scope of this project, smooth-scrolling library was removed, and implementation was left out. 
+
+- During the testing stages of the website, Contact form causing issues, and wasn't submitting the form correctly, resulting an Authentication failure, and rejecting login attempt. After further testing issue turned out to be caused by Outlook email service. Issue was fixed by creating a new email account using Google's Gmail service. 
 
 
 ## Deployment
