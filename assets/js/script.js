@@ -180,6 +180,8 @@ textRight.forEach((item, index) => {
  
  $("a").hover(hoverFunc, unhoverFunc);
  $("i").hover(hoverFunc, unhoverFunc);
+ $(".switch").hover(hoverFunc, unhoverFunc);
+ $("button").hover(hoverFunc, unhoverFunc);
  
  
 
