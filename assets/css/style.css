@@ -9,12 +9,12 @@
   --header-color: #e0e1dd;
   --stroke-color: #121212;
   --stroke-fill: transparent;
-  --progress-color: #515585;
+  --progress-color: #89c2d9;
   --font-color: #121212;
   --bg-color: #e0e1dd;
-  --button-color: #515585;
+  --button-color: #89c2d9;
   --placeholder-color: #121212;
-  --secondary-color: #515585;
+  --secondary-color: #89c2d9;
   --lead-color: #e0e1dd;
   
 }
@@ -367,6 +367,9 @@ nav a {
   color:var(--secondary-color);
   z-index: 20;
   cursor: pointer; 
+  background-color: #121212;
+  border-radius: 50%;
+  height: 45px; 
 }
 
 .close {
@@ -421,6 +424,11 @@ nav a {
 
   .menu-toggle {
     margin-top: 1em;
+  }
+
+  .navbar{
+    border-radius: 50%;
+    height: 45px;
   }
 
   .overlay .close-btn {
@@ -487,6 +495,7 @@ nav a {
   color: var(--secondary-color);
   transition: color .9s ease;
   text-decoration: none;
+  background-color: #121212;
 
 }
 
