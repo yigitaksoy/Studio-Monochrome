@@ -155,7 +155,6 @@ p {
 .toggle-container {
   display: flex;
   justify-content: center;
-
 }
 
 .switch {
@@ -435,7 +434,6 @@ nav a {
     margin-top: 1em;
   }
 
-
  .menu ul li {
   font-size: 30px;
   padding: 10px 0;
@@ -446,6 +444,9 @@ nav a {
     transition: color .9s ease;
   }
 
+  .toggle-container {
+    margin-top: 1rem
+  }
 }
 
 .menu ul li a {
