@@ -802,12 +802,17 @@ textarea:focus {
   margin-left: 50px;
   text-transform: uppercase;
   padding: 20px 30px;
-  background: transparent;
+  background: var(--stroke-fill);
   color: var(--font-color);
   font-size: 1rem;
   font-weight: 700;
   letter-spacing: 2px;
   transition: color .9s ease;    
+}
+
+.send:hover {
+  background: #121212;
+  color: #e0e1dd;
 }
 
 
