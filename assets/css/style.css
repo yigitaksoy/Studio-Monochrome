@@ -863,3 +863,19 @@ footer p {
 footer p span {
   font-weight: 900;
 }
+
+@media(max-width: 768px) {
+ 
+  footer {
+    padding: 8rem 0;
+  }
+
+}
+
+@media(max-width: 320px) {
+ 
+  footer {
+    padding: 4rem 0;
+  }
+
+}
