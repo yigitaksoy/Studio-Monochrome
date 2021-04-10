@@ -86,7 +86,11 @@ The website features a modern, spacious, interactive, and eye chatching design f
 
 - The colors used throught the website are;
 
-<img src=".."  alt="color palette">
+* Light Theme
+<img src="https://github.com/yigitaksoy/Studio-Monochrome/blob/master/assets/images/light-theme.png"  alt="light-theme-color-palette">
+
+* Dark Theme
+<img src="https://github.com/yigitaksoy/Studio-Monochrome/blob/master/assets/images/dark-theme.png"  alt="dark-theme-color-palette">
 
 
 ### Typography
