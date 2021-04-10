@@ -457,7 +457,7 @@ nav a {
 @media screen and (max-width: 320px) {
   
   .logo {  
-    line-height: 4rem!important;
+    line-height: 4.7rem!important;
   }
   nav ul {
     margin-top: 3rem;
@@ -501,7 +501,7 @@ nav a {
 
 @media (max-width: 900px) {
   .logo {
-    line-height: 4rem;
+    line-height: 4.7rem;
     margin-left: 1rem;
     font-size: .6rem;
     letter-spacing: .1rem;
