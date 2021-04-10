@@ -903,7 +903,7 @@ footer p span {
 @media(max-width: 768px) {
  
   footer {
-    padding: 8rem 0;
+    padding-bottom: 8rem;
   }
 
 }
@@ -911,7 +911,7 @@ footer p span {
 @media(max-width: 320px) {
  
   footer {
-    padding: 4rem 0;
+    padding-bottom: 4rem;
   }
 
 }
