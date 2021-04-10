@@ -721,12 +721,26 @@ nav a {
 
 /* Contact Page  Form soruce code: https://www.youtube.com/watch?v=gKgrdJgEtMA */
 
+.contact-container {
+  margin-top: 8rem;
+}
+.contact-info {
+  padding-top: 4rem;
+}
+
 .contact-info p{
-  font-size: .8rem;
+  font-size: .9rem;
 }
 
 .contact-info span {
   font-weight: 700;
+}
+
+.contact-info a {
+  font-size: 12rem;
+  margin-top: 3rem;
+  margin-left: 8rem;
+  color: var(--primary-color);
 }
 
 #contact-form {
@@ -790,16 +804,6 @@ textarea:focus {
   transition: color .9s ease;
 }
 
-.s-top {
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin-top: 5rem;
-  text-decoration: none!important;
-  color: var(--font-color)!important;
-  border: 1px solid var(--font-color);
-  transition: color .9s ease;
-}
-
 .send {
   
   margin-left: 50px;
@@ -821,10 +825,20 @@ textarea:focus {
 
 
 @media(max-width: 768px) {
+
+  .contact-container {
+    padding-top: 2.5rem;
+  }
+
   #contact-form {
     margin: 5% -8%;
     width: 98%;
-}
+  }
+
+  .contact-info a {
+    font-size: 10rem;
+    margin-left: 18rem;
+  }
 
   .send {
     justify-content: center;
@@ -835,11 +849,16 @@ textarea:focus {
 @media(max-width: 414px) {
   
   #contact-form span {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
   
   #contact-form input, #contact-form textarea {
     font-size: .6em;
+  }
+
+  .contact-info a {
+    font-size: 10rem;
+    margin-left: 5.5rem;
   }
   
   .send {
@@ -857,6 +876,14 @@ textarea:focus {
   } 
 
 }
+
+@media(max-width: 320px){
+  .contact-info a {
+    font-size: 8rem;
+    margin-left: 5.2rem;
+  }
+}
+
 
 /*        Footer  */
 
