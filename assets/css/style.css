@@ -684,6 +684,12 @@ nav a {
   padding-bottom: .5rem!important;
 }
 
+.reveal {
+  opacity: 0;
+  visibility: hidden;
+  transition: transform 0s;
+}
+
 
 @media (max-width: 768px) {
   .photo img {
