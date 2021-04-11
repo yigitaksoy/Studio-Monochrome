@@ -37,50 +37,48 @@ function detectMob() {
 }
 
 
-// Image Animations Source code: https://greensock.com/forums/topic/27511-reveal-image-alternating-entrances-leftrightleftright/
+// Image Animations Source code: https://codepen.io/GreenSock/pen/pojzxwZ
 
-gsap.registerPlugin(ScrollTrigger);
+function animateFrom(elem, direction) {
+  direction = direction | 1;
+  
+  var x = 0,
+      y = direction * 100;
+  if(elem.classList.contains("fromLeft")) {
+    x = -100;
+    y = 0;
+  } else if(elem.classList.contains("fromRight")) {
+    x = 100;
+    y = 0;
+  }
+  gsap.fromTo(elem, {x: x, y: y, autoAlpha: 0}, {
+    duration: 2, 
+    x: 0,
+    y: 0, 
+    autoAlpha: 1, 
+    ease: "expo", 
+    overwrite: "auto"
+  });
+}
 
-let imagesLeft = gsap.utils.toArray('.fromLeft') 
- 
- imagesLeft.forEach((item, index) => { 
+function hide(elem) {
+  gsap.set(elem, {autoAlpha: 0});
+}
 
- let timeLine = gsap.timeline({
-   scrollTrigger:{
-     trigger: item,
-     start: "top 70%",
-     end: "bottom 90%",
-     toggleActions: "play play play reverse"
-   }
- });
- timeLine.from(item, {
-   x: -100,
-   opacity: 0,
-   duration: 1
- });
- 
+document.addEventListener("DOMContentLoaded", function() {
+  gsap.registerPlugin(ScrollTrigger);
+  
+  gsap.utils.toArray(".reveal").forEach(function(elem) {
+    hide(elem); // assure that the element is hidden when scrolled into view
+    
+    ScrollTrigger.create({
+      trigger: elem,
+      onEnter: function() { animateFrom(elem) }, 
+      onEnterBack: function() { animateFrom(elem, -1) },
+      onLeave: function() { hide(elem) } // assure that the element is hidden when scrolled into view
+    });
+  });
 });
-
-
-let imagesRight = gsap.utils.toArray('.fromRight')
-
-imagesRight.forEach((item, index) => {
-
- let timeLine = gsap.timeline({
-   scrollTrigger:{
-     trigger: item,
-     start: "top 70%",
-     end: "bottom 90%",
-     toggleActions: "play play play reverse"
-   }
- });
- timeLine.from(item, {
-   x: 100,
-   opacity: 0,
-   duration: 1
- });
-});
-
 
 let textRight = gsap.utils.toArray('.textRight')
 
