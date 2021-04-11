@@ -45,7 +45,7 @@ The website is fully interactive, and built with mobile-first design in mind, an
 6. [**Credits**](#credits)
     - [**Contents**](#contents)
     - [**Media**](#media)
-    - [**Bootstrap snippets & Codes**](#bootstrap-snippets--codes)
+    - [**Codes**](#codes)
     - [**Acknowledgements**](#acknowledgements)
 
 7. [**Disclaimer**](#disclaimer)
@@ -254,7 +254,7 @@ The process of cloning is now completed. For further information on cloning,
 
 - All images used on this website are from [Unsplash](https://unsplash.com).
 - Video loop used on the landing page is from [Mixkit](https://mixkit.co/free-video-backgrounds/).
-### Codes & Snippets
+### Codes
 
 - Animated Fullscreen Overlay Navigation with GSAP is from [Codepen](https://codepen.io/jeffbredenkamp/pen/VypMNE).
 - Custom Scrollbar is from [Greensock ScrollTrigger Demos](https://greensock.com/st-demos/).
