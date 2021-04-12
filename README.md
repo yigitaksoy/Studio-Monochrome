@@ -227,6 +227,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 - All external links work as expected, and open in a new tab. 
 - All images are properly sized, and contain 'alt' text for description.
 - All the buttons checked for functionality, and works as expected.
+- All the links in navbar works, and navbar works as expected on mobile, and on desktop.
+- All the fields in the contact form, as well as the submit button are tested, and working properly. Contact form successfully submits user requests, and gives feedback upon successful submission. 
+- All the animations on the website work properly on Desktop, and mobile without any glitches, or delay.
+- Dark theme toggle works as expected, and saves user settings in localstorage for their next visit. 
 
 ### Debugging
 
