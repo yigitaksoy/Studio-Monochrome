@@ -699,6 +699,18 @@ nav a {
     padding-left: 0!important;
     padding-right: 0!important; 
   }
+  .m-padding {
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+  }
+
+  .m-padding-top {
+    padding-top: 0!important;
+  }
+
+  .m-padding-bottom {
+    padding-bottom: 0!important;
+  }
 }
 
 @media screen and (max-width: 414px) {
@@ -711,6 +723,19 @@ nav a {
     padding-left: 0!important;
     padding-right: 0!important; 
   }
+
+  .m-padding {
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+  }
+
+  .m-padding-top {
+    padding-top: 0!important;
+  }
+
+  .m-padding-bottom {
+    padding-bottom: 0!important;
+  }
 }
 
 
@@ -721,6 +746,15 @@ nav a {
 
   .photo img {
   height: 80vh;
+  }
+
+  .m-padding {
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+  }
+
+  .m-padding-top {
+    padding-top: 0!important;
   }
 }
 
