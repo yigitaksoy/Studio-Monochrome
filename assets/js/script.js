@@ -37,20 +37,71 @@ function detectMob() {
 }
 
 
-// Image Animations Source code: https://codepen.io/GreenSock/pen/pojzxwZ
+// Image Animations Source code: https://greensock.com/forums/topic/27511-reveal-image-alternating-entrances-leftrightleftright/
+
+gsap.registerPlugin(ScrollTrigger);
+let imagesLeft = gsap.utils.toArray('.fromLeft'); 
+
+ imagesLeft.forEach((item, index) => { 
+ let timeLine = gsap.timeline({
+   scrollTrigger:{
+     trigger: item,
+     toggleActions: "play reverse play reverse"
+   }
+ });
+ timeLine.from(item, {
+   x: -100,
+   opacity: 0,
+   duration: 1
+ });
+
+});
+
+let imagesRight = gsap.utils.toArray('.fromRight'); 
+
+ imagesRight.forEach((item, index) => { 
+ let timeLine = gsap.timeline({
+   scrollTrigger:{
+     trigger: item,
+     toggleActions: "play reverse play reverse"
+   }
+ });
+ timeLine.from(item, {
+   x: 100,
+   opacity: 0,
+   duration: 1
+ });
+
+});
+
+let textRight = gsap.utils.toArray('.textRight');
+
+textRight.forEach((item, index) => {
+
+ let timeLine = gsap.timeline({
+   scrollTrigger:{
+     trigger: item,
+
+     toggleActions: "play play play reverse"
+   }
+ });
+ timeLine.from(item, {
+  
+  y: 50,
+  opacity: 0,
+  duration: 3,
+  ease: "power4"
+ });
+});
+
+// Header and contact info reveal effects source code: https://codepen.io/GreenSock/pen/pojzxwZ
 
 function animateFrom(elem, direction) {
   direction = direction | 1;
   
   var x = 0,
       y = direction * 100;
-  if(elem.classList.contains("fromLeft")) {
-    x = -100;
-    y = 0;
-  } else if(elem.classList.contains("fromRight")) {
-    x = 100;
-    y = 0;
-  }
+
   gsap.fromTo(elem, {x: x, y: y, autoAlpha: 0}, {
     duration: 2, 
     x: 0,
@@ -69,6 +120,10 @@ document.addEventListener("DOMContentLoaded", function() {
   gsap.registerPlugin(ScrollTrigger);
   
   gsap.utils.toArray(".reveal").forEach(function(elem) {
+  
+    if (detectMob()) {  // Turn off the animation on mobile devices
+      return true;
+    }
     hide(elem); // assure that the element is hidden when scrolled into view
     
     ScrollTrigger.create({
@@ -78,27 +133,6 @@ document.addEventListener("DOMContentLoaded", function() {
       onLeave: function() { hide(elem) } // assure that the element is hidden when scrolled into view
     });
   });
-});
-
-let textRight = gsap.utils.toArray('.textRight')
-
-textRight.forEach((item, index) => {
-
- let timeLine = gsap.timeline({
-   scrollTrigger:{
-     trigger: item,
-     start: "center bottom",
-     end: "bottom 70%",
-     toggleActions: "play play play reverse"
-   }
- });
- timeLine.from(item, {
-  
-  y: 50,
-  opacity: 0,
-  duration: 2,
-  ease: "power4"
- });
 });
  
 // Dark Mode Theme Switch and Save user selection in localStorage for their next visit
@@ -196,11 +230,11 @@ textRight.forEach((item, index) => {
  
  $(".navbar, .close").click (function() {
    navigation.reversed() ? navigation.play() : navigation.reverse();
- })
+ });
  
   $(".menu a").click (function() {
    navigation.reversed() ? navigation.play() : navigation.reverse();
-  })
+  });
 
  
  
