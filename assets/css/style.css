@@ -630,6 +630,10 @@ nav a {
     margin-top: 5rem;
   }
 
+  #about {
+    margin-top: 0;
+  }
+
 }
 
 
@@ -684,11 +688,6 @@ nav a {
   padding-bottom: .5rem!important;
 }
 
-.reveal {
-  opacity: 0;
-  visibility: hidden;
-  transition: transform 0s;
-}
 
 
 @media (max-width: 768px) {
