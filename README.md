@@ -77,7 +77,7 @@ The website features a modern, spacious, interactive, and eye chatching design f
 
 ## Strategy 
 
-
+- The goal of the website is to inform potential clients about studio's work, increase Studio awareness, as well as increasing client portfolio. Studio aims to attract more clients by showcasing the quiality of their portfolio, and their vision for creative photography. 
 
 ## Design 
 
