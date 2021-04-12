@@ -62,11 +62,11 @@ The website features a modern, spacious, interactive, and eye chatching design f
 
 - I want to understand the main purpose of the website.
 - I want to easily navigate through the website. 
-- I want to see the studio's portfolio. 
 
 #### Returning Visitor Goals
 
 - I want to find out more information about the studio, and their background. 
+- I want to see the studio's portfolio. 
 
 
 #### Frequent User Goals
@@ -187,15 +187,24 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 #### First Time Visitor Goals
 
-
+* I want to understand the main purpose of the website.
+    - Upon visiting the website, users are greeted with a short video loop of a photoshoot as landing page background, along with an animated jumbotron text showing the studio name, and a subtext describing the website's purpose. 
+* I want to easily navigate through the website. 
+    - Upon visiting the website a call-to-action button is presented for users to easily start browsing the website. On the top right hand side there is a sticky, animated overlay navigation toggler that helps the user to navigate to any page they wish anytime they need. On the contact page there is an another call-to-action button that leads user back to the home page. 
 
 #### Returning Visitor Goals
 
-
+* I want to see the studio's portfolio. 
+    - Right underneath the studio's about page, a portfolio section is presented to the user. Portfolio section contains all the photos that are taken by the studio, which are slided in with a smooth transition animation as they scroll through the section. Every image gives a detail about what type of photography studio produces. 
+* I want to find out more information about the studio, and their background. 
+    - Upon visiting the website, right beneath the main text on the landing page, there is a call-to-action button that leads the user directly to Studio's about page, which gives an overview of the studio's mission, informing the visitor about their background, and all the campaigns they previously worked on. 
 
 #### Frequent User Goals
 
-
+* I want to see the studio's social media presence. 
+    - Studio's social media presence is presented right underneath the navigation links every time user clicks on the navbar. 
+* I want to find out how to contact the studio for project requests. 
+    - On the navigation bar a contact link is presented, which takes the user directly to the contact section, which is at the bottom of the website, and provides users with a contact form, along with the details of the studio.
 
 ### Further Manual Testing
 
