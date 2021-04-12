@@ -130,6 +130,10 @@ The website features a modern, spacious, interactive, and eye chatching design f
 
 ### Features Left to Implement
 
+- Blog section to increase website traffic, attract more potential clients, and raise brand awareness.
+- Animated image carousel for each project, and campaign. 
+- Horizontal scroll section for the portfolio section.
+- Implementation of a Smooth scrolling library for Desktop view for better UX.  
 
 
 ## Technologies Used
