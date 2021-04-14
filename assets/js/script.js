@@ -94,47 +94,28 @@ textRight.forEach((item, index) => {
  });
 });
 
-// Header and contact info reveal effects source code: https://codepen.io/GreenSock/pen/pojzxwZ
+let reveal = gsap.utils.toArray('.reveal');
 
-function animateFrom(elem, direction) {
-  direction = direction | 1;
-  
-  var x = 0,
-      y = direction * 100;
+reveal.forEach((item, index) => {
 
-  gsap.fromTo(elem, {x: x, y: y, autoAlpha: 0}, {
-    duration: 2, 
-    x: 0,
-    y: 0, 
-    autoAlpha: 1, 
-    ease: "expo", 
-    overwrite: "auto"
-  });
-}
+ let timeLine = gsap.timeline({
+   scrollTrigger:{
+     trigger: item,
+     toggleActions: "play reverse play reverse"
+   }
+ });
+ timeLine.from(item, {
 
-function hide(elem) {
-  gsap.set(elem, {autoAlpha: 0});
-}
-
-document.addEventListener("DOMContentLoaded", function() {
-  gsap.registerPlugin(ScrollTrigger);
-  
-  gsap.utils.toArray(".reveal").forEach(function(elem) {
-  
-    if (detectMob()) {  // Turn off the animation on mobile devices
-      return true;
-    }
-    hide(elem); // assure that the element is hidden when scrolled into view
-    
-    ScrollTrigger.create({
-      trigger: elem,
-      onEnter: function() { animateFrom(elem) }, 
-      onEnterBack: function() { animateFrom(elem, -1) },
-      onLeave: function() { hide(elem) } // assure that the element is hidden when scrolled into view
-    });
-  });
+  duration: 2, 
+  y: 100, 
+  autoAlpha: 1, 
+  ease: "expo", 
+  overwrite: "auto"
 });
- 
+});
+
+
+
 // Dark Mode Theme Switch and Save user selection in localStorage for their next visit
 
   const toggleSwitch = document.querySelector('.switch input[type="checkbox"]');
