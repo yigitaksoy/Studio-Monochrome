@@ -162,25 +162,25 @@
                                 <ul>
                                     <li>       
                                         <div class="textarea">
-                                            <label><span>Hello,</span></label>
-                                            <label><span>My Name is:</span></label>
-                                            <input type="text" name="name" id="fullname" placeholder="Enter your name here" required>
+                                            <label for="name"><span class="hello">Hello,</span></label>
+                                            <label for="name"><span>My Name is:</span></label>
+                                            <input type="text" name="name" id="name" placeholder="Enter your name here" required>
                                         </div>
                                     </li>
                                     <li> 
                                         <div class="textarea">
-                                            <label><span>Here's My Email :</span></label>
-                                              <input type="email" name="emailaddress" id="emailaddress" placeholder="Enter your email here" required>
+                                            <label for="email_address"><span>Here's My Email :</span></label>
+                                              <input type="email" name="email_address" id="email_address" placeholder="Enter your email here" required>
                                         </div>
                                     </li>
                                     <li> 
                                         <div class="textarea">
-                                            <label><span>I'm looking for :</span></label>
-                                            <textarea  name="projectsummary" id="projectsummary" rows="6" placeholder="Let us know how we can help" required></textarea>
+                                            <label for="project_summary"><span>I'm looking for :</span></label>
+                                            <textarea  name="project_summary" id="project_summary" rows="6" placeholder="Let us know how we can help" required></textarea>
                                         </div>
                                     </li>
                                 </ul>
-                                <button type="submit" name="contact-submit" id="contact-submit" class="send">Send Message</button>
+                                <button type="submit" aria-label="submit_button" name="submit_button" id="submit_button" class="send">Send Message</button>
                                 </form>
                           </div>
                           <div class="col-lg-4 contact-info reveal">
