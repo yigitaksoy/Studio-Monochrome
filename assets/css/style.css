@@ -41,7 +41,6 @@ body {
   font-family: termina, sans-serif;
   background-color: var(--bg-color); 
   color: var(--font-color);
-  transition: background-color .9s ease;
   max-width: 100%;
   overflow-x: hidden;
   cursor: none;
@@ -56,12 +55,12 @@ h1 {
   -webkit-text-stroke: 3px var(--stroke-color);
   color: var(--stroke-fill);
   font-weight: 900;
-  transition: color .9s ease;
+
 }
 
 p {
   font-size: .9rem;
-  transition: color .9s ease;
+
 }
 
 .p-0 {
@@ -74,7 +73,6 @@ p {
   margin-top: 5rem;
   text-decoration: none!important;
   color: var(--button-color)!important;
-  transition: color .9s ease;
 }
 
 /* Placeholder Source code: https://www.w3schools.com/howto/howto_css_placeholder.asp */
@@ -82,17 +80,14 @@ p {
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color:var(--placeholder-color);
   opacity: 1; /* Firefox */
-  transition: color .9s ease;
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
   color: var(--placeholder-color);
-  transition: color .9s ease;
 }
 
 ::-ms-input-placeholder { /* Microsoft Edge */
   color: var(--placeholder-color);
-  transition: color .9s ease;
 }
 
 
@@ -531,7 +526,6 @@ nav a {
   font-weight: 700;
   text-transform: uppercase;
   color: var(--header-color);
-  transition: color .9s ease;
 }
 
 .fallback {
@@ -806,7 +800,6 @@ nav a {
 #contact-form label {
   display: block;
   padding-left: 5px;
-  transition: color .9s ease;
 }
 
 #contact-form span {
@@ -826,7 +819,6 @@ nav a {
   color: var(--font-color);
   font-size: .9em;
   font-weight: bold;
-  transition: color .9s ease;
 }
 
 input:focus {
@@ -842,7 +834,6 @@ textarea:focus {
 .textarea {
  
   border-bottom: 1px solid var(--font-color);
-  transition: color .9s ease;
 }
 
 .send {
