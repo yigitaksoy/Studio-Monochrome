@@ -64,7 +64,7 @@
 
  gsap.registerPlugin(ScrollToPlugin); 
 
- $("#contact a").click(function(e) {
+ $(".scrolltop").click(function(e) {
 
   if (detectMob()) { 
     return true;
