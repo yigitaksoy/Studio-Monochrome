@@ -174,6 +174,8 @@ The website features a modern, spacious, interactive, and eye chatching design f
    - **W3C Markup Validator** to check validity of HTML code.   
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
    - **W3C CSS Validator** to check validity of CSS code.
+- [JSHint Javascript Code Quality Tool](https://jshint.com/)
+   - **JSHint Javascript Code Quality Tool** to check the quality of the Javascript code.
 - [Balsamiq:](https://balsamiq.com/)
     - **Balsamiq** was used for creating [wireframes](https://github.com/yigitaksoy/Studio-Monochrome/tree/master/assets/wireframes) during the design process. 
 
@@ -182,10 +184,11 @@ The website features a modern, spacious, interactive, and eye chatching design f
 
 ## Testing 
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate the HTML & CSS code in the project to ensure there were no syntax errors.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate the HTML & CSS code in the project to ensure there were no syntax errors. JSHint was used to check the quality of the Javascript.  
 
 -   [W3C Markup Validator Results](https://github.com/yigitaksoy/Studio-Monochrome/blob/master/assets/w3c-validator-results/html-results.png)
 -   [W3C CSS Validator Results](https://github.com/yigitaksoy/Studio-Monochrome/blob/master/assets/w3c-validator-results/css-results.png)
+-   [JSHint Results](https://github.com/yigitaksoy/Studio-Monochrome/blob/master/assets/jshint-results/jshint-results.png)
 
 ### Testing User Stories from UX Design Section
 
