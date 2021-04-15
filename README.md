@@ -22,7 +22,7 @@
 
 This is the main website for Studio Monochrome, a creative photography studio based in Amsterdam. The website aims to target individuals, brands, and magazines who are looking for photography services to work on their campaigns. The website's main focus is to promote, showcase, and inform potential clients about their work, and raise studio awareness. 
 
-The website is fully interactive, and built with mobile-first design in mind, and accessible on a wide range of mobile devices, and tablets. 
+The website is fully interactive, built with mobile-first design in mind, and accessible on a wide range of mobile devices, and tablets. 
 
 
 ## Contents Table
@@ -114,7 +114,7 @@ The website features a modern, spacious, interactive, and eye chatching design f
 ### Existing Features
 
 - Responsive on all device sizes. 
-- Interactive and responsive navbar built with HTML, CSS, Javascript, and GSAP animations. 
+- Interactive and responsive overlay navbar built with HTML, CSS, Javascript, and GSAP animations. 
 - Landing page featuring a video loop as a background, and animated reveal effects on jumbotron, texts, logo, and navbar.
 - Information page about the Studio.
 - Portfolio section showcasing Studio's work. 
@@ -122,7 +122,7 @@ The website features a modern, spacious, interactive, and eye chatching design f
 - Custom scrollbar built with Javascript, and GSAP animations. 
 - Custom cursor built with Javascript, and GSAP animations.
 - Dark Mode for users to easily customize, and style the website. 
-- JS localstorage to store data across browser sessions, and save user settings for their future visits. 
+- Localstorage to store data across browser sessions, and save user settings for their future visits. 
 - Image, and text reveal animations using Javascript, and GSAP animations.
 - Easing effects on click scroll for call to action buttons, using Javascript and GSAP animations. 
 
