@@ -232,12 +232,15 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 - All the animations on the website work properly on Desktop, and mobile without any glitches, or delay.
 - Dark theme toggle works as expected, and saves user settings in localstorage for their next visit. 
 
+
+
 ### Debugging
 
 - During the earlier development stages of this website, a smooth-scroll library was implemented to add smooth-scrolling effects throughout the website, and to add a horizontal scrolling section for the portfolio images. After further testing I found out that smooth-scrolling library was hijacking the native scrolling on mobile devices, therefore resulting a slower, and poor UX for the users. The issue was fixable, but in order to fix this issue there had to be changes made in the javascript. Due to its complexity, and the library being out of the scope of this project, smooth-scrolling library was removed, and implementation was left out. 
 
 - During the testing stages of the website, contact form was causing issues, and wasn't submitting the form correctly, resulting an Authentication failure, and rejecting login attempt. After further testing issue turned out to be caused by Outlook email service. Issue was fixed by creating a new email account using Google's Gmail service. 
 
+- During the final development stages of the website, I wanted to take a diferent approach for animating image, and text reveal effects, which were based on user's scroll direction. The code for these animations were taken from [Greensock Demos](https://codepen.io/GreenSock/pen/pojzxwZ). After further testing i've realized that the code wasn't working properly on mobile devices, therefore causing a glitch during scroll. I wasn't sure if the issue was related to my code, and i wanted to further test the issue by checking the [GSAP's official website](https://greensock.com/gsap/) with my mobile device, which uses the same animations in the demo. I found out that the same problem appears on developers website as well. I've raised this issue on the [Greensock Community Forums](https://greensock.com/forums/topic/27807-reveal-animations-based-on-scroll-direction-scrolltrigger/?tab=comments#comment-136957), and issue turned out to be a bug caused by the transition effects that were being used in the CSS, which only appears on Mobile browsers, and wasn't detected by the author. After raising the issue, developer updated their official Codepen demo, but the issue didn't seem to be fixed. Due to this reason, I've decided to update my code back to its original state, and changed my reveal animations to only work from one scroll direction, which works without issues on Desktop, and mobile devices. For more information on how to use Greensock Animations on your website, please visit [Greensock](https://greensock.com).
 
 ## Deployment
 
