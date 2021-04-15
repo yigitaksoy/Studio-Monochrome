@@ -758,7 +758,7 @@ nav a {
   }
 }
 
-/* Contact Page  Form soruce code: https://www.youtube.com/watch?v=gKgrdJgEtMA */
+/* Contact Page  */
 
 .contact-container {
   margin-top: 8rem;
@@ -776,16 +776,28 @@ nav a {
 }
 
 .contact-info a {
+  display: inline-block;
   margin-left: 8rem;
+  margin-bottom: 2rem;
   color: var(--primary-color); 
 }
 
+.address {
+  margin-left: 0!important;
+  text-decoration: none!important;
+}
+
+.email {
+  margin-left: 0!important;
+  text-decoration: none!important;
+}
+
 .scrolltop {
-  margin-top: 3rem;
+
   font-size: 12rem;
 }
 
-#contact-form {
+#contact-form {  /* Form structure soruce code: https://www.youtube.com/watch?v=gKgrdJgEtMA */
   margin: 5% 1.4%;
   margin-left: 5rem;
 }
