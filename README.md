@@ -263,7 +263,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
     - The page automatically deployed. 
 
 - To add this repository to your local workspace:
-    - Click on the [Studio Monochrome repository on GitHub](https://yigitaksoy.github.io/Studio-Monochrome/) link.
+    - Click on the [Studio Monochrome repository on GitHub](https://github.com/yigitaksoy/Studio-Monochrome) link.
     - Click on the **Code** button, and copy the URL.
     - Go into your local workspace, and open up a new terminal. 
     - Type `git clone ` and paste the URL you copied from GitHub, and press enter. It should look like this: 
