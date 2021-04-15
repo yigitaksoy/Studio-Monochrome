@@ -140,10 +140,10 @@ p {
   }
 
   nav ul {
-    margin-top: 10rem;
+    margin-top: 7rem!important;
   }
   nav ul li {
-    font-size: 9vw;
+    font-size: 9vw!important;
 }
   
 }
@@ -336,12 +336,18 @@ nav ul li {
 }
 
 @media screen and (max-width: 768px) {
+  nav ul {
+    margin-top: 2rem!important;
+  }
   nav ul li {
     font-size: 8vw!important;
   }
 }
 
 @media screen and (max-width: 750px) {
+  nav ul {
+    margin-top: 2rem!important;
+  }
   nav ul li {
       font-size: 15vw;
   }
