@@ -232,7 +232,15 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 - All the animations on the website work properly on Desktop, and mobile without any glitches, or delay.
 - Dark theme toggle works as expected, and saves user settings in localstorage for their next visit. 
 
+#### Google Lighthouse scores:
 
+- Desktop:
+
+<img src="https://github.com/yigitaksoy/Studio-Monochrome/blob/master/assets/images/lighthouse-desktop.png" alt="lighthouse-desktop" width="500" height="200">
+
+- Mobile: 
+
+<img src="https://github.com/yigitaksoy/Studio-Monochrome/blob/master/assets/images/lighthouse-mobile.png" alt="lighthouse-mobile" width="500" height="200">
 
 ### Debugging
 
