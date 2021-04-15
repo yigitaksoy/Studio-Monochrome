@@ -1,4 +1,68 @@
-gsap.registerPlugin(ScrollToPlugin); //  ScrollToPlugin documentation https://greensock.com/scrolltoplugin/
+/*jshint esversion: 6 */
+/*jshint -W030 */
+
+ // Navigation    Source code: https://codepen.io/jeffbredenkamp/pen/VypMNE
+ 
+ var navigation = new TimelineLite({paused:true, reversed:true});
+ navigation.to("#navigationWrap", 0.4, {opacity: 1, display: 'block'})
+           .to(".navbar", 0.3, {opacity: 0}, "-=0.1")
+           .to(".close", 0.1, {display: "block", opacity: 1}, "-=0.1")
+           .from(".menu", 0.3, {opacity: 0, y: 30})
+           .from(".social", 0.4, {opacity: 0});
+ 
+ $(".navbar, .close").click (function() {
+   navigation.reversed() ? navigation.play() : navigation.reverse();
+ });
+ 
+  $(".menu a").click (function() {
+   navigation.reversed() ? navigation.play() : navigation.reverse();
+  });
+
+ // Landing Page Animations
+ 
+ var landingAnimations = new TimelineMax({ paused: true }); 
+ 
+  TweenMax.staggerFrom(
+    ".navbar",
+    1,
+    {
+      y: 20,
+      opacity: 0,
+      ease: Expo.easeOut,
+      delay: 1
+    },
+    0.1
+  );
+
+  TweenMax.staggerFrom(
+    ".logo",
+    1,
+    {
+      y: 20,
+      opacity: 0,
+      ease: Expo.easeOut,
+      delay: 1
+    },
+    0.1
+  );
+
+  let timeLine = gsap.timeline({delay: 1.8});
+    
+  timeLine.from('.animate', {
+    opacity: 0,
+    duration: 1, 
+    ease:Linear.easeNone,  
+  }, "reveal");
+
+
+ // Gradient Reveal  source code https://greensock.com/forums/topic/27371-gradient-reveal-on-scroll/?tab=comments#comment-134126
+
+ gsap.to(".headline", 5, { 
+    '-webkit-mask-image': '-webkit-linear-gradient(top, rgba(0,0,0,1) 100%,  rgba(0,0,0,1) 100%, rgba(0,0,0,0) 150%, rgba(0,0,0,0) 0%)'});
+
+ // ScrollTo Animations  source code: https://greensock.com/scrolltoplugin/
+
+ gsap.registerPlugin(ScrollToPlugin); 
 
  $("#contact a").click(function(e) {
 
@@ -30,14 +94,13 @@ $(".slide").click(function(e) {
   gsap.to(window, 2, {scrollTo: {y:'#home', autoKill:false}, ease: Power4.easeInOut} );
 });
 
-// Detect Mobile Browser Source code:    https://stackoverflow.com/questions/11381673/detecting-a-mobile-browser
+// Detect Mobile Browser source code:    https://stackoverflow.com/questions/11381673/detecting-a-mobile-browser
 
 function detectMob() {
   return ( ( window.innerWidth <= 1024 ) && ( window.innerHeight <= 1366 ) );
 }
 
-
-// Image Animations Source code: https://greensock.com/forums/topic/27511-reveal-image-alternating-entrances-leftrightleftright/
+// Image Animations source code: https://greensock.com/forums/topic/27511-reveal-image-alternating-entrances-leftrightleftright/
 
 gsap.registerPlugin(ScrollTrigger);
 let imagesLeft = gsap.utils.toArray('.fromLeft'); 
@@ -54,7 +117,6 @@ let imagesLeft = gsap.utils.toArray('.fromLeft');
    opacity: 0,
    duration: 1
  });
-
 });
 
 let imagesRight = gsap.utils.toArray('.fromRight'); 
@@ -71,8 +133,9 @@ let imagesRight = gsap.utils.toArray('.fromRight');
    opacity: 0,
    duration: 1
  });
-
 });
+
+// Text Animations 
 
 let textRight = gsap.utils.toArray('.textRight');
 
@@ -85,8 +148,7 @@ textRight.forEach((item, index) => {
      toggleActions: "play play play reverse"
    }
  });
- timeLine.from(item, {
-  
+ timeLine.from(item, { 
   y: 50,
   opacity: 0,
   duration: 3,
@@ -105,18 +167,15 @@ reveal.forEach((item, index) => {
    }
  });
  timeLine.from(item, {
-
   duration: 2, 
   y: 100, 
   autoAlpha: 1, 
   ease: "expo", 
   overwrite: "auto"
-});
-});
+ });
+ });
 
-
-
-// Dark Mode Theme Switch and Save user selection in localStorage for their next visit
+ // Dark Mode Theme Switch and Save user selection in localStorage for their next visit source code: https://dev.to/ananyaneogi/create-a-dark-light-mode-switch-with-css-variables-34l8
 
   const toggleSwitch = document.querySelector('.switch input[type="checkbox"]');
   const currentTheme = localStorage.getItem('theme');
@@ -141,9 +200,7 @@ reveal.forEach((item, index) => {
   
   toggleSwitch.addEventListener('change', switchTheme, false);
 
-
- 
-// Scrollbar    Source code: https://codepen.io/Mamboleoo/pen/abdwYaJ
+ // Scrollbar    Source code: https://codepen.io/Mamboleoo/pen/abdwYaJ
 
  gsap.registerPlugin(ScrollTrigger);
  gsap.to('progress', {
@@ -152,7 +209,6 @@ reveal.forEach((item, index) => {
    scrollTrigger: { scrub: 0.3 }
  });
 
- 
  // Cursor      Source code: https://codepen.io/ionz149/pen/97133e4b9a4578e5a30aa09c7a75ec63
  
  var $circle = $('.circle'),
@@ -195,67 +251,3 @@ reveal.forEach((item, index) => {
  $("i").hover(hoverFunc, unhoverFunc);
  $(".switch").hover(hoverFunc, unhoverFunc);
  $("button").hover(hoverFunc, unhoverFunc);
- 
- 
-
- 
- // Navigation    Source code: https://codepen.io/jeffbredenkamp/pen/VypMNE
- 
- 
- var navigation = new TimelineLite({paused:true, reversed:true});
- navigation.to("#navigationWrap", 0.4, {opacity: 1, display: 'block'})
-           .to(".navbar", 0.3, {opacity: 0}, "-=0.1")
-           .to(".close", 0.1, {display: "block", opacity: 1}, "-=0.1")
-           .from(".menu", 0.3, {opacity: 0, y: 30})
-           .from(".social", 0.4, {opacity: 0});
- 
- $(".navbar, .close").click (function() {
-   navigation.reversed() ? navigation.play() : navigation.reverse();
- });
- 
-  $(".menu a").click (function() {
-   navigation.reversed() ? navigation.play() : navigation.reverse();
-  });
-
- 
- 
- // Landing Page Animations
- 
- var landingAnimations = new TimelineMax({ paused: true }); 
- 
-  TweenMax.staggerFrom(
-    ".navbar",
-    1,
-    {
-      y: 20,
-      opacity: 0,
-      ease: Expo.easeOut,
-      delay: 1
-    },
-    0.1
-  );
-
-  TweenMax.staggerFrom(
-    ".logo",
-    1,
-    {
-      y: 20,
-      opacity: 0,
-      ease: Expo.easeOut,
-      delay: 1
-    },
-    0.1
-  );
-
-  let timeLine = gsap.timeline({delay: 1.8});
-    
-  timeLine.from('.animate', {
-    opacity: 0,
-    duration: 1, 
-    ease:Linear.easeNone,  
-  }, "reveal")
-
-
-  // Gradient Reveal source code https://greensock.com/forums/topic/27371-gradient-reveal-on-scroll/?tab=comments#comment-134126
-  gsap.to(".headline", 5, { 
-    '-webkit-mask-image': '-webkit-linear-gradient(top, rgba(0,0,0,1) 100%,  rgba(0,0,0,1) 100%, rgba(0,0,0,0) 150%, rgba(0,0,0,0) 0%)'});
