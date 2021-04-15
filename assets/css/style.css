@@ -776,10 +776,13 @@ nav a {
 }
 
 .contact-info a {
-  font-size: 12rem;
-  margin-top: 3rem;
   margin-left: 8rem;
-  color: var(--primary-color);
+  color: var(--primary-color); 
+}
+
+.scrolltop {
+  margin-top: 3rem;
+  font-size: 12rem;
 }
 
 #contact-form {
@@ -872,8 +875,12 @@ textarea:focus {
   }
 
   .contact-info a {
-    font-size: 10rem;
     margin-left: 18rem;
+  }
+
+  .scrolltop {
+    font-size: 10rem;
+    margin-bottom: 3rem;
   }
 
   .send {
@@ -893,8 +900,11 @@ textarea:focus {
   }
 
   .contact-info a {
-    font-size: 10rem;
     margin-left: 5.5rem;
+  }
+
+  .scrolltop {
+    font-size: 10rem;
   }
   
   .send {
@@ -915,8 +925,11 @@ textarea:focus {
 
 @media(max-width: 320px){
   .contact-info a {
-    font-size: 8rem;
     margin-left: 5.2rem;
+  }
+
+  .scrolltop {
+    font-size: 8rem;
   }
 }
 
