@@ -236,11 +236,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 - Desktop:
 
-<img src="https://github.com/yigitaksoy/Studio-Monochrome/blob/master/assets/images/lighthouse-desktop.png" alt="lighthouse-desktop" width="500" height="200">
+<img src="https://github.com/yigitaksoy/Studio-Monochrome/blob/master/assets/images/lighthouse-desktop.png" alt="lighthouse-desktop" width="500" height="170">
 
 - Mobile: 
 
-<img src="https://github.com/yigitaksoy/Studio-Monochrome/blob/master/assets/images/lighthouse-mobile.png" alt="lighthouse-mobile" width="500" height="200">
+<img src="https://github.com/yigitaksoy/Studio-Monochrome/blob/master/assets/images/lighthouse-mobile.png" alt="lighthouse-mobile" width="500" height="170">
 
 ### Debugging
 
