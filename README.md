@@ -243,7 +243,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 - Mobile: 
 
-<img src="https://github.com/yigitaksoy/Studio-Monochrome/blob/master/assets/images/lighthouse-mobile.png" alt="lighthouse-mobile" width="500" height="170">
+<img src="https://github.com/yigitaksoy/Studio-Monochrome/blob/master/assets/images/lighthouse-mobile.png" alt="lighthouse-mobile" width="500" height="180">
 
 ### Debugging
 
