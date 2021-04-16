@@ -1,6 +1,3 @@
-/*jshint esversion: 6 */
-/*jshint -W030 */
-
  // Navigation    Source code: https://codepen.io/jeffbredenkamp/pen/VypMNE
  
  var navigation = new TimelineLite({paused:true, reversed:true});
@@ -20,9 +17,9 @@
 
  // Landing Page Animations
  
- var landingAnimations = new TimelineMax({ paused: true }); 
+ var landingAnimations = new TimelineMax({ paused: false }); 
  
-  TweenMax.staggerFrom(
+ landingAnimations.from(
     ".navbar",
     1,
     {
@@ -34,7 +31,7 @@
     0.1
   );
 
-  TweenMax.staggerFrom(
+  landingAnimations.from(
     ".logo",
     1,
     {
@@ -46,6 +43,7 @@
     0.1
   );
 
+
   let timeLine = gsap.timeline({delay: 1.8});
     
   timeLine.from('.animate', {
@@ -54,6 +52,7 @@
     ease:Linear.easeNone,  
   }, "reveal");
 
+  
 
  // Gradient Reveal  source code https://greensock.com/forums/topic/27371-gradient-reveal-on-scroll/?tab=comments#comment-134126
 
