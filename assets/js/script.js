@@ -59,7 +59,7 @@
  gsap.to(".headline", 5, { 
     '-webkit-mask-image': '-webkit-linear-gradient(top, rgba(0,0,0,1) 100%,  rgba(0,0,0,1) 100%, rgba(0,0,0,0) 150%, rgba(0,0,0,0) 0%)'});
 
- // ScrollTo Animations  source code: https://greensock.com/scrolltoplugin/
+ // ScrollTo Animations  source code: https://greensock.com/docs/v3/Plugins/ScrollToPlugin
 
  gsap.registerPlugin(ScrollToPlugin); 
 
