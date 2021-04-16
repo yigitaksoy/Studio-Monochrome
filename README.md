@@ -293,7 +293,7 @@ The process of cloning is now completed. For further information on cloning,
 - Image reveal Animations is from [Greensock Forums](https://greensock.com/forums/topic/27511-reveal-image-alternating-entrances-leftrightleftright/).
 - Javascript code for detecting mobile browser is from [Stackoverflow](https://stackoverflow.com/questions/11381673/detecting-a-mobile-browser).
 - Gradient reveal effect for homepage header is from [Greensock Forums](https://greensock.com/forums/topic/27371-gradient-reveal-on-scroll/?tab=comments#comment-134126).
-- Source code used for ScrollTo effects are from [GSAP ScrollTo Plugin Documentation](https://greensock.com/scrolltoplugin/).
+- Source code used for ScrollTo effects are from [GSAP ScrollTo Plugin Documentation](https://greensock.com/docs/v3/Plugins/ScrollToPlugin).
 - Contact form structure code is from [Codegrid](https://www.youtube.com/watch?v=gKgrdJgEtMA) Youtube Channel.
 - Dark/Light Mode Switch with CSS Variables is from [Dev.to](https://dev.to/ananyaneogi/create-a-dark-light-mode-switch-with-css-variables-34l8)
 - EmailJS source code is from CI Walkthrough Project.
