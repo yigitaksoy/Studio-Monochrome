@@ -299,7 +299,7 @@ The process of cloning is now completed. For further information on cloning,
 - EmailJS source code is from CI Walkthrough Project.
 
 ## Acknowledgements
-
+- I would like to thank my mentor Nishant Kumar for his valuable input thoughout this project.
 
 ## Disclaimer
 - All content on the website, including images and text, are used for educational purposes only.
