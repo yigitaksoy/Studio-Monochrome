@@ -225,6 +225,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
   - iPhone 5s/6s/8/X/XS/11/
   - Samsung Galaxy S8/Note 10+
   - iPad Air 2 
+  - iPad Pro 3
 - All the internal links tested locally, and functional.
 - All the logos on the website are functional, and leads the user back to the home page. 
 - All external links work as expected, and open in a new tab. 
