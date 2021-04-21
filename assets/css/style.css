@@ -782,7 +782,7 @@ nav a {
 }
 
 .contact-info a {
-  display: inline-block;
+  display: block;
   margin-left: 8rem;
   margin-bottom: 2rem;
   color: var(--primary-color); 
