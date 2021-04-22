@@ -114,7 +114,7 @@ The website features a modern, spacious, interactive, and eye chatching design f
 ### Existing Features
 
 - Responsive on all device sizes. 
-- Interactive and responsive overlay navbar built with HTML, CSS, Javascript, and GSAP animations. 
+- Interactive, and responsive overlay navbar built with HTML, CSS, Javascript, and GSAP animations. 
 - Landing page featuring a video loop as a background, and animated reveal effects on jumbotron, texts, logo, and navbar.
 - Information page about the Studio.
 - Portfolio section showcasing Studio's work. 
@@ -124,7 +124,7 @@ The website features a modern, spacious, interactive, and eye chatching design f
 - Dark Mode for users to easily customize, and style the website. 
 - Localstorage to store data across browser sessions, and save user settings for their future visits. 
 - Image, and text reveal animations using Javascript, and GSAP animations.
-- Easing effects on click scroll for call to action buttons, using Javascript and GSAP animations. 
+- ScrollTo animations for call to action buttons, using Javascript and GSAP animations. 
 
 
 
